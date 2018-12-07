@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dannys Quiz</title>
+    <link href= 'style.css' rel= 'stylesheet'>
+    <script src= main.js></script>
+  </head>
+  <body>
+    <h1>A quiz about Harry Potter</h1>
+
+    <form id = 'quiz' name = 'quiz'>
+
+      <p class= 'questions'>1. What was Harry's mum's name?</p>
+      <input type='radio' id = 'multipleChoice'  name= Q1 value='Mary Potter'> Mary Potter<br>
+      <input type='radio' id = 'multipleChoice'  name= Q1 value='Sarah Potter'> Sarah Potter<br>
+      <input type='radio' id = 'multipleChoice'  name= Q1 value='Lily Potter'> Lily Potter<br>
+
+      <p class= 'questions'>2. How many siblings does Ron have?</p>
+      <input type='radio' id= 'multiple choice'  name= Q2 value='6'> 6<br>
+      <input type='radio' id= 'multiple choice'  name= Q2 value='5'> 5<br>
+      <input type='radio' id= 'multiple choice'  name= Q2 value='4'> 4<br>
+
+      <p class= 'questions'>3. Where does <a href='' title= 'Voldemort'>he-who-must-not-be-named</a> hide parts of his soul?</p>
+      <input id= 'textbox' type= 'text' name= Q3
+
+      <br>
+
+      <p class= 'questions'>4. Which creature resides in the Chmaber of Secrets?</p>
+      <input type='radio' id= 'multiple choice'  name= Q4 value='giant'> A giant, Gurg<br>
+      <input type='radio' id= 'multiple choice'  name= Q4 value='snake'> A giant snake, the Basilisk<br>
+      <input type='radio' id= 'multiple choice'  name= Q4 value='4'> A Thestral, Buckbeak<br>
+
+      <p class= 'questions'>5. Which coin is the most valuable?</p>
+      <input type='radio' id= 'multiple choice'  name= Q5 value='sickle'> A Sickle<br>
+      <input type='radio' id= 'multiple choice'  name= Q5 value='knut'> A Knut<br>
+      <input type='radio' id= 'multiple choice'  name= Q5 value='galleon'> A Galleon<br>
+
+      <br>
+
+      <input id= 'button' type= 'button' value= 'Im finished' onclick= 'check();'>
+
+    </form>
+
+  <div id='submitted'>
+    <p id= 'finalScore'></p>
+    <p id= 'message'></p>
+    <img id= 'picture'>
+  </div>
+</html>
+</body>
